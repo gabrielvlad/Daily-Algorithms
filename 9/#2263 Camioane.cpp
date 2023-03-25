@@ -1,7 +1,6 @@
 /******************************************************************************
 Created by Gabe on 24/03/2023.
 
-
 Requirement
 A company has two types of trucks: trucks of type 1, which can transport as many as t1 tons of cargo per day, and trucks of type 2, which can transport as many as t2 tons of cargo per day.
 Knowing that the company has n trucks of the type 1 and m trucks of the type 2, how many tons of cargo can the company's trucks transport in z days.
