@@ -28,20 +28,18 @@ Output
 
 using namespace std;
 
-int main()
-{
-    int n,m,I;
-    cin>>n>>m;
+int main() {
+    int n, m, I;
+    cin >> n >> m;
 
     //
     I=m/n;
 
     //
-    if(m%n==0){
-        cout<<I;
-    }
-    else{
-        cout<<"m is not divisible by n aka The train can still take more load";
+    if (m%n== 0) {
+        cout << I;
+    } else {
+        cout << "m is not divisible by n aka The train can still take more load";
     }
 
     return 0;
