@@ -38,13 +38,30 @@ One way to make the cuts is:
  ----   x|x|x   x x x
  xxx
 *******************************************************************************/
-
+/*ver 1 this one gets max score the same as the second both do the same thing, but this one is more explicit
 #include <iostream>
 using namespace std;
 int main() {
-    int n, m, s;
+    int n, m;
+    long long s;
     cin >> n >> m;
     s = (n - 1) + 1LL * n * (m - 1); //LL is a suffix that tells the compiler to treat 1 as long long with is a shorthand for long long int
     cout << s;
     return 0;
 }
+*/
+
+/*ver2 is similar to version 1 the difference is only that I dont store the variable at all, with makes this one abit faster and more simplified version of the first, but the first is more explicit*/
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    cout << (n - 1) + 1LL * n * (m - 1); //LL is a suffix that tells the compiler to treat 1 as long long with is a shorthand for long long int
+    return 0;
+}
+
+//Note: in both snippets, the LL suffix is used to ensure that the calculation is done using long long arithmetic, which can prevent potential integer overflow issues.
