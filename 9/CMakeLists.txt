@@ -27,5 +27,4 @@ add_executable(2061_Tren_Japonez "#2061 Tren Japonez.cpp")
 add_executable(2201_Salut "#2201 Salut.cpp")
 add_executable(2617_Taieturi "#2617 Taieturi.cpp")
 add_executable(2938_Albina "#2938 Albina.cpp")
-
 add_executable(2764_InvertedColor "#2764 InvertedColor.cpp")

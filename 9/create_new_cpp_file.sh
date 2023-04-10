@@ -11,7 +11,7 @@ read -p "Enter a name for the new file: " filename
 touch "${filename}.cpp"
 cat <<EOF > "${filename}.cpp"
 /******************************************************************************
-Created by Gabe on $(date +%d/%m/%y)
+Created by Gabe on $(date +%d/%m/%y).
 
 
 *******************************************************************************/
