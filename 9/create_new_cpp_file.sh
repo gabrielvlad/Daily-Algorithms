@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define variables
-project_name="9"
+#project_name="9"
 cmake_file="CMakeLists.txt"
 
-# Prompt the user for a new file name
+# Prompt the user for a new file name and intentionally omit -r flag
 read -p "Enter a name for the new file: " filename
 
 # Create the new file and write the header comments and initial C++ structure
