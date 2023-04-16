@@ -30,5 +30,5 @@ add_executable(2938_Albina "#2938 Albina.cpp")
 add_executable(2764_InvertedColor "#2764 InvertedColor.cpp")
 add_executable(2377_Pisici "#2377 Pisici.cpp")
 add_executable(4185_Varsta "#4185 Varsta.cpp")
-
 add_executable(102_cifre "#102 cifre.cpp")
+add_executable(2599_a16 "#2599 a16.cpp")
