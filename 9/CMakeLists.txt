@@ -38,3 +38,4 @@ add_executable(2602_ultimacifraapartiiintregi "#2602 ultimacifraapartiiintregi.c
 add_executable(2603_primacifraapartiizecimale "#2603 primacifraapartiizecimale.cpp")
 add_executable(2600_expatr "#2600 expatr.cpp")
 add_executable(2593_Unghiuri_Adiacente "#2593 Unghiuri Adiacente.cpp")
+add_executable(3803_AriePoligonRegulat "#3803 AriePoligonRegulat.cpp")
