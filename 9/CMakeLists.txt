@@ -41,3 +41,5 @@ add_executable(2593_Unghiuri_Adiacente "#2593 Unghiuri Adiacente.cpp")
 add_executable(3803_AriePoligonRegulat "#3803 AriePoligonRegulat.cpp")
 add_executable(4041_Multime_Gauss "#4041 Multime Gauss.cpp")
 add_executable(3806_Mediane "#3806 Mediane.cpp")
+
+add_executable(1261_CatePare "#1261 CatePare.cpp")
